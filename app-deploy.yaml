@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: django
-          image: dhulkifil/new-app:v2
+          image: dhulkifil/new-app:{{BUILD_ID}}
           ports:
             - containerPort: 8000
 ---
